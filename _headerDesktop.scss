@@ -1,0 +1,15 @@
+@media (min-width: 992px) {
+  header {
+    .hero {
+      flex-direction: row;
+      width: 1132px;
+      justify-content: space-between;
+      margin: 0 auto;
+      img {
+        width: 544px;
+        height: 557px;
+      }
+      
+    }
+  }
+}

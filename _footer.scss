@@ -1,0 +1,37 @@
+.list-info-text {
+  @include flexCenter();
+  flex-direction: column;
+  padding: 50px 0 54px;
+  color: #111238;
+  text-align: center;
+  p {
+    @include textStyle(400, 16px, 19px);
+    padding: 10px 0;
+  }
+  h2 {
+    @include textStyle(700, 16px, 19px);
+    padding: 15px 0;
+  }
+
+  .list-text1 {
+    @include textStyle(400, 12px, 140%);
+    text-align: center;
+    width: 166px;
+    padding-top: 50px;
+    p {
+      padding: 20px 0 0;
+    }
+  }
+  .list-text2 {
+    text-align: center;
+    color: #111238;
+  }
+  .list-text3 {
+    color: #111238;
+    text-align: center;
+  }
+  .list-text4 {
+    color: #111238;
+    text-align: center;
+  }
+}

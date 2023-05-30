@@ -1,0 +1,29 @@
+@media (min-width: 992px) {
+  .newvacancies {
+    width: 1440px;
+    height: 446px;
+    h2 {
+      @include textStyle(900, 36px, 43px);
+      width: 460px;
+    }
+    p {
+      width: 460px;
+    }
+    form {
+      width: 447px;
+    }
+    button {
+      @include textStyle(400, 16px, 19px);
+      display: flex;
+      width: 181px;
+      color: #ffffff;
+      padding: 15px 30px;
+      i {
+        margin-right: 10px;
+      }
+      p {
+        @include textStyle(400, 16px, 19px);
+      }
+    }
+  }
+}

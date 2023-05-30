@@ -1,0 +1,90 @@
+.jobs {
+  padding-top: 50px;
+  & * {
+    box-sizing: border-box;
+  }
+  & > h3 {
+    text-align: center;
+    @include textStyle(700, 18px, 22px);
+    color: #111238;
+    padding-bottom: 40px;
+  }
+  .vacancies-card {
+    width: 290px;
+    height: 1824px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    .card-1 {
+      height: 441px;
+      border: 1px solid #c5c9d5;
+      border-radius: 10px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 30px 0;
+      img {
+        margin-bottom: 30px;
+      }
+      .tytle {
+        text-align: center;
+        color: #111238;
+        margin-bottom: 30px;
+        h2 {
+          @include textStyle(700, 16px, 19px);
+          padding-bottom: 10px;
+        }
+        p {
+          @include textStyle(400, 14px, 17px);
+        }
+      }
+      button {
+        border: none;
+        padding: 10px 25px;
+        background: #1a75e8;
+        border-radius: 5px;
+        color: white;
+        @include textStyle(700, 16px, 19px);
+        margin-bottom: 30px;
+      }
+      .stack {
+        @include textStyle(400, 14px, 17px);
+        color: #b2b2b2;
+        width: 183px;
+        height: 59px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 30px;
+      }
+      ul {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        li {
+          border: 1px solid #b2b2b2;
+          padding: 5px 10px;
+          border-radius: 5px;
+        }
+      }
+      a {
+        text-decoration: none;
+        color: #1a75e8;
+        @include textStyle(400, 14px, 17px);
+      }
+    }
+  }
+  & > button {
+    padding: 15px 30px;
+    background: #1a75e8;
+    border-radius: 5px;
+    color: #ffff;
+    @include textStyle(400, 16px, 19px);
+    border: none;
+    margin: 30px auto 50px;
+    display: block;
+  }
+  padding-bottom: 50px;
+}
